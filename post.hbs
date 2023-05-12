@@ -34,11 +34,15 @@ into the {body} tag of the default.hbs template --}}
         {{/match}}
 
         <div class="article-tag post-card-tags">
-            {{#primary_tag}}
-                <span class="post-card-primary-tag">
-                    <a href="{{url}}">{{name}}</a>
-                </span>
-            {{/primary_tag}}
+            {{#if tags}}
+                {{#foreach tags}}
+                    <span class="post-card-primary-tag">
+                        <a href="{{url}}">{{name}}</a>
+                    </span>
+                {{/foreach}}
+            {{/if}}
+
+
             {{#if featured}}
                 <span class="post-card-featured">{{> "icons/fire"}} Featured</span>
             {{/if}}
