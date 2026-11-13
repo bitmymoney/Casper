@@ -194,6 +194,11 @@ production stylesheet in assets/built/screen.css
     line-height: 1.1;
 }
 
+h1.site-description {
+    margin-bottom: 0;
+    font-family: inherit;
+}
+
 .site-description:first-child {
     font-family: var(--gh-font-heading, var(--font-sans));
 }
