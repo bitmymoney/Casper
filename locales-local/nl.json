@@ -1,14 +1,23 @@
 {
+    " (Page %)": " (Pagina %)",
     "A collection of 0 posts": "Een verzameling van 0 berichten",
     "A collection of 1 post": "Een verzameling van 1 bericht",
     "A collection of {numberOfPosts} posts": "Een verzameling van {numberOfPosts} berichten",
+    "Close (Esc)": "Sluiten (Esc)",
     "Enter your email": "Vul je e-mailadres in",
     "Go to the front page →": "Naar de voorpagina →",
+    "Main Menu": "Hoofdmenu",
     "Members only": "Alleen voor leden",
     "Newer Posts": "Nieuwere berichten",
+    "Next (arrow right)": "Volgende (pijl rechts)",
     "Older Posts": "Oudere berichten",
     "Page {page} of {totalPages}": "Pagina {page} van {totalPages}",
     "Paid-members only": "Alleen voor betalende leden",
+    "Previous (arrow left)": "Vorige (pijl links)",
+    "Read more of {name}": "Lees meer van {name}",
+    "Search this site": "Doorzoek deze site",
+    "Toggle fullscreen": "Volledig scherm aan/uit",
+    "Zoom in/out": "In-/uitzoomen",
     "comment": "reactie",
     "comments": "reacties"
 }
