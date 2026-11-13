@@ -90,3 +90,22 @@ Please see [@TryGhost/Themes/theme-translations/README.md](https://github.com/Tr
 # Copyright & License
 
 Copyright (c) 2013-2026 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+# Bitmymoney fork
+
+This fork runs on blog.bitmymoney.com. Differences from upstream Casper:
+
+- `post.hbs`: feature image above the title, all tags shown, no custom excerpt
+- `assets/css/screen.css`: tighter spacing around the feature image and tags
+- `locales-local/nl.json`: Dutch translations missing upstream (`locales/` is generated, edit only `locales-local/`)
+
+To sync with upstream:
+
+```bash
+git fetch upstream
+git merge upstream/main
+pnpm install
+pnpm test    # builds, zips to dist/casper.zip and runs gscan
+```
+
+Rename the zip (for example `casper-bitmm-YYYYMMDD.zip`) before uploading it in Ghost Admin, because the name `casper` is reserved for the built-in theme.

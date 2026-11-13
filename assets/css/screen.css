@@ -1259,7 +1259,7 @@ html.no-infinite-scroll .pagination {
 }
 
 .post-template .article {
-    padding: max(8vmin, 40px) 0 max(8vmin, 64px);
+    padding: 1em 0 max(8vmin, 64px);
 }
 
 .post-template .article-header {
@@ -1271,6 +1271,7 @@ html.no-infinite-scroll .pagination {
 }
 
 .article-tag {
+    margin-top: 16px;
     margin-bottom: 16px;
     font-size: 1.6rem;
 }
@@ -1302,7 +1303,7 @@ html.no-infinite-scroll .pagination {
 .gh-canvas .article-image {
     grid-column: wide-start / wide-end;
     width: 100%;
-    margin: max(6.4vmin, 40px) 0 0;
+    margin: 1em 0 0;
 }
 
 .image-full .article-image {

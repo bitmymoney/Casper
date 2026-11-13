@@ -1,0 +1,14 @@
+{
+    "A collection of 0 posts": "Een verzameling van 0 berichten",
+    "A collection of 1 post": "Een verzameling van 1 bericht",
+    "A collection of {numberOfPosts} posts": "Een verzameling van {numberOfPosts} berichten",
+    "Enter your email": "Vul je e-mailadres in",
+    "Go to the front page →": "Naar de voorpagina →",
+    "Members only": "Alleen voor leden",
+    "Newer Posts": "Nieuwere berichten",
+    "Older Posts": "Oudere berichten",
+    "Page {page} of {totalPages}": "Pagina {page} van {totalPages}",
+    "Paid-members only": "Alleen voor betalende leden",
+    "comment": "reactie",
+    "comments": "reacties"
+}
